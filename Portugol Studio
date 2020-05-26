@@ -1,0 +1,16 @@
+programa {
+	funcao inicio() {
+		inteiro matrizA [4][4], soma=0
+		escreva ("Entre com 16 valores para uma matriz 4x4:\n")
+		para (inteiro i=0;i<=3;i++)
+		para (inteiro j=0;j<=3;j++){
+		    
+		    escreva ("Entre com os valores dos elementos ["+i+"] e ["+j+"]: ")
+		    leia (matrizA [i][j])
+		    se (i==j){
+		        soma=soma+matrizA[i][j]
+		    }
+		}
+		   escreva ("Os valores da soma dos elementos da matriz é de: "+soma)
+	}
+}
